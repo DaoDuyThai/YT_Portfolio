@@ -66,10 +66,10 @@ nav {
     text-transform: uppercase;
 }
 
-.scroll-btn {
+.scroll_btn {
     position: absolute;
-    bottom: 2.5%;
-    right: 2%;
+    bottom: 2vh;
+    right: 3vh;
     font-size: .8vw;
     text-transform: uppercase;
 }
