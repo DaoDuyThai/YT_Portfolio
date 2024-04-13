@@ -2,8 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
-
 * {
     margin: 0;
     padding: 0;
@@ -16,6 +14,7 @@ body {
     color: white;
     overflow-x: hidden;
 }
+
 
 .home_section {
     position: relative;
@@ -35,7 +34,7 @@ nav {
 
 .nav_contact_link {
     height: 5vh;
-    padding: 0.75vh 1.5vw;
+    padding: 0.75ch 1.5vw;
     border: 1px solid white;
     border-radius: 20px;
     cursor: pointer;
@@ -59,7 +58,7 @@ nav {
     margin-top: 5vh;
 }
 
-.home_section .hero_text {
+.hero_text {
     font-family: "Anton", sans-serif;
     font-size: 12.5vw;
     line-height: 1;
@@ -70,36 +69,33 @@ nav {
     position: absolute;
     bottom: 2vh;
     right: 3vh;
-    font-size: .8vw;
-    text-transform: uppercase;
 }
 
 .about_section {
     position: relative;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 100vw;
-    height: 100vh;
-    padding: 2vh 2vw;
 }
 
-.about_section img {
+.about_section img{
     position: absolute;
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
     object-fit: cover;
-    filter: brightness(30%);
+    filter: brightness(0.3);
 }
 
-.about_span {
+.about_span{
     z-index: 1;
-    margin-left: 2.5%;
+    margin-left: 2vw;
 }
 
-.about_content {
+.about_content{
     z-index: 1;
     margin-bottom: -30vh;
     display: flex;
@@ -109,51 +105,43 @@ nav {
     gap: 5vh;
 }
 
-.about_content .about_topics {
+.about_topics{
     width: 95%;
     display: flex;
     gap: 4vw;
     text-transform: uppercase;
 }
 
-.about_text {
+.about_text{
     font-size: 1.5vw;
     width: 95%;
 }
 
-.italic {
-    font-style: italic;
-}
-
-.italic:last-child {
-    text-decoration: underline;
-}
-
-.skills {
+.skills{
     z-index: 1;
     padding: 0 2.5%;
     font-family: "Anton", sans-serif;
     text-transform: uppercase;
+    font-size: 2.2vw;
     display: flex;
     justify-content: flex-start;
-    overflow: hidden;
     gap: 3vw;
-    font-size: 2.2vw;
+    overflow: hidden;
 }
 
-.projects_section {
+.projects_section{
     font-family: "Anton", sans-serif;
     width: 100vw;
     height: 100vh;
     padding: 5vh 2vw;
 }
 
-.project_title {
+.project_title{
     font-size: 4vw;
     text-transform: uppercase;
 }
 
-.projects_container {
+.projects_container{
     width: 100%;
     height: 100%;
     display: grid;
@@ -161,26 +149,26 @@ nav {
     grid-gap: 1vw;
 }
 
-.sub_container {
+.sub_container{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1vw;
 }
 
-.project {
+.project{
     position: relative;
-    padding: 2vh 2vw;
+    padding: 1vw;
 }
 
-.projects_container span {
-    font-family: "Anton", sans-serif;
+.projects_container span{
+    font-family: "Poppins", sans-serif;
     z-index: 2;
     font-size: 5vw;
     position: absolute;
     bottom: 0;
 }
 
-.project img {
+.project img{
     z-index: 1;
     position: absolute;
     top: 0;
@@ -188,91 +176,81 @@ nav {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: center;
-    filter: brightness(50%);
+    filter: brightness(0.5);
 }
 
-.contact_section {
+.contact_section{
     width: 100vw;
     height: 100vh;
     position: relative;
 }
 
-.contact_section span {
+.contact_section span{
     position: absolute;
     cursor: pointer;
-    text-transform: lowercase;
 }
 
-.contact_section span:nth-child(1) {
+.contact_section span:nth-child(1){
     top: 20%;
     left: 15%;
 }
 
-.contact_section span:nth-child(2) {
+.contact_section span:nth-child(2){
     top: 20%;
     right: 15%;
 }
 
-.contact_section span:nth-child(3) {
+.contact_section span:nth-child(3){
     top: 75%;
     left: 15%;
 }
 
-.contact_section span:nth-child(4) {
+.contact_section span:nth-child(4){
     top: 75%;
     right: 15%;
 }
 
-.contact_section span:nth-child(5) {
+.contact_section span:nth-child(5){
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 1vh 1.5vw;
+    right: 50%;
+    transform: translate(50%, -50%);
     border: 1px solid white;
+    padding: 1vw 1.5vw;
     border-radius: 20px;
-    transition: 0.3 ease;
 }
 
-.contact_section span:nth-child(5):hover {
+.contact_section span:nth-child(5):hover{
     background-color: white;
     color: black;
 }
 
-.footer {
+.footer{
     width: 100vw;
     height: 40vh;
     padding: 0 10vw;
-    background-color: black;
     display: grid;
     grid-template-columns: 10vw 10vw 5vw 5vw;
-    align-items: center;
     gap: 12.5vw;
+    align-items: center;
     font-size: 1vw;
 }
 
-.footer_title {
+.footer_title{
     font-size: 5vw;
     font-family: "Anton", sans-serif;
     line-height: 1;
 }
 
-.footer_contact_link {
-    cursor: pointer;
-    margin-top: -10vh;
-}
-
-.footer div {
+.footer div{
     display: flex;
     flex-direction: column;
     gap: 1vh;
 }
 
-.footer div span {
+.footer div span{
     cursor: pointer;
-    transition: 0.3 ease;
 }
 
-.footer div span:hover {
+.footer div span:hover{
     text-decoration: underline;
 }
