@@ -1,6 +1,6 @@
 # Portfolio_V2
 
-PersonalPortfolio is a minimalist yet elegant repository showcasing a personal portfolio website built entirely with pure HTML and CSS. This repository serves as a perfect starting point for individuals looking to create their own portfolio to showcase their skills, projects, and experiences in a clean and professional manner.
+Portfolio_V2 is a minimalist yet elegant repository showcasing a personal portfolio website built entirely with pure HTML and CSS. This repository serves as a perfect starting point for individuals looking to create their own portfolio to showcase their skills, projects, and experiences in a clean and professional manner.
 
 ## Screenshots
 
