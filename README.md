@@ -17,7 +17,7 @@ Follow the steps below to set up the project:
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/DuyThaiddt/Portfolio_V2
+    git clone https://github.com/DaoDuyThai/Portfolio_V2
     ```
 
 2. **Enjoy😉**
